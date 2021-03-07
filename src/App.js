@@ -11,9 +11,6 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom'
 function App() {
   return (
     <BrowserRouter>
-      <div className="App">
-        <p>hello world</p>
-      </div>
       <Navigation />
       <Switch>
         <Route path='/' component={Home} exact />
